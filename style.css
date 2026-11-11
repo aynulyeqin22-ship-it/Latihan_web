@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Riwayat Hidup - Aynul Yeqin</title>
+    <style>
+        /* Desain dasar biar rapi di laptop & HP */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Latar belakang warna Maroon */
+        body {
+            background-color: #5a4c4c;
+            color: #ffffff;
+            padding: 30px 15px;
+        }
+
+        /* Kotak utama CV */
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            color: #333333;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Bagian Foto dan Nama */
+        .header-cv {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #800000;
+            padding-bottom: 20px;
+        }
+
+        .foto-profil {
+            width: 150px;
+            height: 180px;
+            object-fit: cover;
+            border: 3px solid #800000;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .header-cv h1 {
+            color: #800000;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Pengaturan Judul Section */
+        h2 {
+            color: #800000;
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #dddddd;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        /* Isi Teks */
+        p, li {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #444444;
+        }
+
+        .info-list {
+            margin-bottom: 10px;
+        }
+
+        .info-list strong {
+            display: inline-block;
+            width: 180px;
+            color: #333333;
+        }
+
+        /* Hobi dan Skill */
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        ul li {
+            margin-bottom: 4px;
+        }
+
+        .motto {
+            font-style: italic;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-left: 4px solid #800000;
+            margin-bottom: 20px;
+        }
+
+        /* Tabel Data Kelas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #cccccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #000000;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Header Atas -->
+        <div class="header-cv">
+            <img src="c:\Users\Aynul\OneDrive\Pictures\Camera Roll\WIN_20260826_14_47_02_Pro.jpg" alt="Foto Aynul Yeqin" class="foto-profil">
+            <h1>Daftar Riwayat Hidup</h1>
+        </div>
+
+        <!-- Bagian Profil -->
+        <h2>Profil Pribadi</h2>
+        <div class="info-list"><strong>Nama Lengkap:</strong> Aynul Yeqin</div>
+        <div class="info-list"><strong>Tempat, Tanggal Lahir:</strong> Depok, 22 Agustus 2010</div>
+        <div class="info-list"><strong>Jenis Kelamin:</strong> Laki-laki</div>
+        <div class="info-list"><strong>Umur:</strong> 16 Tahun</div>
+        <div class="info-list"><strong>Alamat:</strong> RT 2 RW 3 Cimpaeun Tapos</div>
+
+        <!-- Bagian Pendidikan -->
+        <h2>Riwayat Pendidikan</h2>
+        <div class="info-list"><strong>Taman Kanak-kanak:</strong> TK YAPIIM</div>
+        <div class="info-list"><strong>Sekolah Dasar:</strong> SD Negeri Cimpaeun 1</div>
+        <div class="info-list"><strong>Sekolah Menengah Pertama:</strong> SMP Negeri 16 Depok</div>
+        <div class="info-list"><strong>Sekolah Menengah Kejuruan:</strong> SMK Negeri 1 Depok</div>
+
+        <!-- Bagian Keahlian -->
+        <h2>Keahlian (Skill)</h2>
+        <ul>
+            <li>Bermain game</li>
+            <li>Dasar-dasar PPLG (Pengembangan Perangkat Lunak dan Gim)</li>
+        </ul>
+
+        <!-- Bagian Hobi -->
+        <h2>Hobi</h2>
+        <ul>
+            <li>Bermain game</li>
+            <li>Mendengar musik</li>
+        </ul>
+
+        <!-- Bagian Motto -->
+        <h2>Motto Hidup</h2>
+        <div class="motto">
+            "Small steps lead to big dreams"
+        </div>
+
+        <!-- Bagian Data Kelas -->
+        <h2>Data Kelas (X PPLG)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>No. Absen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aynul</td>
+                    <td>X PPLG</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Rafif</td>
+                    <td>X PPLG</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Asaepul</td>
+                    <td>X PPLG</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>
